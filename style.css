@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.poster-container{
+    width: 100vw;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.poster-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .poster-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .poster-content h1 span {
+    color: #FF6347; 
+}
+  
+  .event-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .event-details {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .highlights {
+    margin-bottom: 20px;
+  }
+  
+  .highlights ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .highlights ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .rsvp-section p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+  }
+  
+  .countdown-timer {
+    margin-top: 30px;
+  }
+  
+  .countdown-timer h2 {
+    font-size: 1.5em;
+  }
+  
+  .timer {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .timer span {
+    margin: 0 10px;
+  }
