@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .banner-container {
+        height: 200px;
+    }
+
+    .banner img {
+        height: 150px;
+        margin: 0 10px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .call-to-action a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-container {
+        height: 150px;
+    }
+
+    .banner img {
+        height: 100px;
+        margin: 0 5px;
+    }
+
+    .banner-title {
+        font-size: 1.2rem;
+    }
+
+    .banner-description {
+        font-size: 0.8rem;
+    }
+
+    .call-to-action a {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
